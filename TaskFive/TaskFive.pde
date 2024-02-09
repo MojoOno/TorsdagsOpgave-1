@@ -64,6 +64,8 @@ void methodTwo()
     break;
   case 6:
     println("Søndag");
+  default:
+  println("Ugedag findes ikke");
   }
 
 

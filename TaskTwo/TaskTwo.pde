@@ -4,10 +4,13 @@ String myName = "Franck";
 int myAge = 33;
 boolean amHappy = true;
 
+String happy = "I clap my hands";
+String unHappy = "I dont clap my hands";
+
 println("Hi, my name is " + myName);
 println("I am " + myAge + " years old");
-if(amHappy == !true) {
-  println("I dont clap my hands"); 
+if(amHappy) {
+  println(happy); 
 } else {
-  println("I clap my hands"); 
+  println(unHappy); 
 }
